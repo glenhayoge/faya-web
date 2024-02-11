@@ -8,17 +8,6 @@ FAYA is actively working on the development of entrepreneurial & innovative mind
 
 - **Demo**: [Live Site](https://faya.netlify.app)
 
-# Contribution
-
-To contribute to this project please check out the [contribution guidelines](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md).
-
-## Prerequisits
-
-Before cloning/forking this project, make sure you have the following tools installed:
-
-- [Git](https://git-scm.com/downloads)
-- [NodeJS](https://nodejs.org/en/download/)
-
 ## Tech Stack
 
 - NextJS - Frontend Meta Framework
@@ -32,9 +21,21 @@ Before cloning/forking this project, make sure you have the following tools inst
 1. Fork the project
 2. Clone the project
 3. Follow the instructions in the console:
-4. Navigate to the project directory cd faya
+4. Navigate to the project directory cd faya-web
 5. Install the dependencies npm install
 6. Run the project npm start
+
+# Contribution
+
+To contribute to this project please check out the [contribution guidelines](https://github.com/YurisCodingClub/accessibility-mentor/blob/main/CONTRIBUTING.md).
+
+## Prerequisits
+
+Before cloning/forking this project, make sure you have the following tools installed:
+
+- [Git](https://git-scm.com/downloads)
+- [NodeJS](https://nodejs.org/en/download/)
+
 
 ## Contributors
 

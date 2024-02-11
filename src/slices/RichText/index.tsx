@@ -1,25 +1,15 @@
-import type { Content } from "@prismicio/client";
-import {
-  PrismicRichText,
-  SliceComponentProps,
-  JSXMapSerializer,
-} from "@prismicio/react";
-import styles from "./index.module.css";
+// ./src/slices/RichText/index.tsx
 
-const components: JSXMapSerializer = {
-  label: ({ node, children }) => {
-    if (node.data.label === "codespan") {
-      return <code>{children}</code>;
-    }
-  },
-};
+import type { Content } from "@prismicio/client";
+import { SliceComponentProps } from "@prismicio/react";
+import { RichText } from "@/components/RichText";
 
 type RichTextProps = SliceComponentProps<Content.RichTextSlice>;
 
-export default function RichText({ slice }: RichTextProps) {
+export default function RichTextSlice({ slice }: RichTextProps) {
   return (
-    <section className={styles.richtext}>
-      <PrismicRichText field={slice.primary.content} components={components} />
+    <section className="flex flex-col gap-2">
+      <RichText field={slice.primary.content} />
     </section>
   );
 }
