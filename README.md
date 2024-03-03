@@ -1,6 +1,6 @@
 # FAYA Website
 ![GitHub top language](https://img.shields.io/github/languages/top/glenhayoge/faya-web)
-![GitHub last commit](https://img.shields.io/github/last-commit/glenhayoge/faya-web
+![GitHub last commit](https://img.shields.io/github/last-commit/glenhayoge/faya-web)
 ![GitHub repo size](https://img.shields.io/github/repo-size/glenhayoge/faya-web)
 
 This repo contains the code for the official website for FAYA, a youth empowerment association in Papua New Guinea.
