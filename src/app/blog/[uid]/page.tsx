@@ -72,7 +72,6 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <div className="flex flex-col gap-12 w-full max-w-3xl">
       <Navigation client={client} />
-
       {/* Display the "hero" section of the blog post */}
       <section className="flex flex-col gap-12">
         <div className="flex flex-col items-center gap-3 w-full">
@@ -94,10 +93,8 @@ export default async function Page({ params }: { params: Params }) {
           className="w-full max-w-3xl max-h-96 rounded-xl object-cover"
         />
       </section>
-
       {/* Display the content of the blog post */}
       <SliceZone slices={slices} components={components} />
-
       {/* Display the Recommended Posts section using the posts we requested earlier */}
       <h2 className="font-bold text-3xl">Recommended Posts</h2>
       <section className="grid grid-cols-1 gap-8 max-w-3xl w-full">
@@ -105,7 +102,6 @@ export default async function Page({ params }: { params: Params }) {
           <PostCard key={post.id} post={post} />
         ))}
       </section>
-
       <Navigation client={client} />
     </div>
   );
